@@ -1,0 +1,302 @@
+html, body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+/*.............Globalclasses..........*/
+
+a{
+text-decoration: none;
+color: black;
+}
+
+ .flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+ ul {
+    list-style-type: none;
+}
+
+
+
+/*.............navbar..........*/
+.nav{
+    background:steelblue;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+    
+}
+
+.nav  .nav-items{
+    color: #000;
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+
+}
+
+
+
+.nav .nav-items .nav-link:hover{
+    background-color:seagreen;
+}
+.nav .nav-items .nav-link:hover a{
+    color:white;
+}
+
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    color: black;
+    font-family: Abel;
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+}
+
+
+/*..........main Content..............*/
+main .site-title{
+    background-image: url("../Assets/IMG_3758.jpg");
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+.site-background{
+    padding-top:0rem ;
+    text-align: center;
+    color: white;
+}
+
+main.site-title h3,h1{
+    margin: .2rem;
+    
+}
+
+.Vertical-line1{
+    border-left: 6px solid green;
+    height: 1386px;
+    left:18%;
+    top:40px;
+    float:left;
+    position: relative;
+
+}
+
+
+.h1{
+    padding: 5px;
+    background-color:green;
+    width: 42%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+}
+:hover.h1{
+    background-color: teal;
+}
+.main-content {
+    width: 75%;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    background: slategray;
+    border: solid;
+    
+}
+
+
+
+.education-background{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 240px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:green;
+    font-size:1.1rem; ;
+    flex-wrap: wrap;
+    
+}
+
+
+.p{
+    color: #000;
+}
+
+
+:hover.education-background{
+    background-color: teal;
+}
+
+.float-left{
+   width:200px;
+   height:120px;
+}
+.float-right{
+    width:200px;
+    height:120px;
+ }
+
+ .coding-skills{
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.java-skill{
+    margin-left:10px ;
+    margin-bottom:10px ;
+    padding: 10px;
+    width: 45%;
+    background:green;
+    float: left;
+    
+}
+:hover.java-skill{
+    background-color: teal;
+}
+
+.studio-skill{
+    margin-right: 10px;
+    margin-bottom:10px ;
+    padding: 10px;
+    width: 45%;
+    float: right;
+    background:green;
+}
+:hover.studio-skill{
+    background-color: teal;
+}
+
+.img_java{
+    width:100px;
+    height:50px;
+
+}
+.img_studio{
+    width:100px;
+    height:70px;
+
+}
+
+.skills-heading{
+    padding: 5px;
+    background-color:green;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+}
+
+:hover.skills-heading{
+    background-color: teal;
+}
+.img_coding{
+    float: right;
+    width:300px;
+    margin-top: 10px;
+    padding-right: 10px;
+    height:100px;
+
+}
+
+
+
+
+
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+/*.............Responsive-point..........*/
+
+
+.footer h2 {
+    font-size: 20px;
+}
+
+.footer-container{
+    border: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    width: 75%;
+    background-color:steelblue; 
+}
+:hover.footer-container{
+    background-color: teal;
+}
+footer{
+    font-size:small; 
+    clear: both;
+    padding: 10px;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*ont-style:intalics; */
+    text-align:center;  
+} 
+
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    justify-content: space-between; 
+   
+}
+
+:hover.nav-link{
+    background-color:seagreen;
+    padding: 10px;
+}
+
+
+
+/*.............Responsive-point..........*/
+
+@media only screen and (max-width:750px) {
+    .nav .nav-menu, .nav-items{
+        flex-direction: column;
+    }
+    
+}
+
