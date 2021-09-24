@@ -17,7 +17,7 @@ It is an simple portofolio application. It provides details about personnel info
 
 ## Links :
 
-* Link for the deployed application [Updated-portfolio](https://rajesh295-dev.github.io/updated-portfolio/)
+* Link for the deployed application [portfolio](https://rajesh295-dev.github.io/Portfolio_homework/)
 * Link for the Github repository [Host by Github](https://github.com/Rajesh295-dev/updated-portfolio)
 
 
