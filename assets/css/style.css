@@ -132,8 +132,8 @@ section{
 /* Work */
 .my-works .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 80px;
     grid-gap: 20px;
 }
 
@@ -168,8 +168,8 @@ section{
     opacity: 0;
 }
 
-a.project1 {
-    background-image: url(../images/project-one.png);
+a.Code-Refactor {
+    background-image: url(../images/code-refactor.png);
 }
 
 a.Day-Scheduler {
@@ -279,12 +279,12 @@ a.Weather-Dashboard {
         margin: 10px;
     }
 
-    .work .content {
+    .my-works .content {
         grid-template-columns: 1fr 1fr;
         grid-gap : 5px 0;
     }
 
-    .work .content a {
+    .my-works .content a {
         grid-column: 1 / span 2;
     }
 
@@ -298,5 +298,20 @@ a.Weather-Dashboard {
 
     .contact ul li a {
         margin: 0 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact ul {
+        margin: 10px 0;
+        width: 100%;
+        justify-content:center ;
+
+    }
+
+    .contact .content{
+        flex-direction: column;
+        width: 100%;
+        
     }
 }
